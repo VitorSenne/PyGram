@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pygram"
+version = "0.1.0"
+description = "Robô de gerenciamento de página no Instagram"
+authors = ["Vitor Senne Lima <vitorsenne9@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
